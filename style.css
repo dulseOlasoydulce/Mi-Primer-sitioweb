@@ -1,23 +1,18 @@
+/* Fuente general para todo el cuerpo del documento */
 body {
-
-.heebo-<uniquifier> {
-  font-family: "Heebo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: 'Redaction 50', sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 20px;
 }
 
-h1 {
+/* Fuente específica para dar jerarquía a los títulos */
+h1, h2 {
     font-family: 'Poppins', sans-serif;
     color: #0284c7;
 }
-
-h2 {
-    color: #2b3137;
-    border-bottom: 2px solid #0969da;
-    padding-bottom: 6px;
-}
-
 ul {
     background-color: #ffffff;
     padding: 15px 30px;
